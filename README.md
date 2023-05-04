@@ -8,8 +8,8 @@ O programa realiza consultas e marcações se comunicando com o servidor atravé
 
 ### Consulta Voo
 
-Para o programa consultar o voo é necessário chamar o formulário html "VerificarStatus.html". 
-Na consulta o usuário especifica um voo e assento para saber se estão disponíveis através do Servlet. 
+Para o programa consultar o voo é necessário chamar o formulário html "FrmVerificarStatus.html". 
+Na consulta através do formulário o usuário especifica um voo e assento e envia para o Servlet "ServletVerificarStatus" verificar se estão disponíveis. 
 
 O servlet retorna:
  - 0: voo disponível
@@ -23,7 +23,7 @@ Todos os códigos dos voos se iniciam com a letra "A":
 
 ### Marcação Voo
 
-A marcação envolve chamar o formulário "MarcarVoo.html" e enviar o código do voo e assento e marcar como indisponível. 
+A marcação envolve chamar o formulário "FrmMarcarVoo.html" e enviar o código do voo e assento para o Servlet "ServletMarcarVoo" marcar o voo e assento como indisponível. 
 
 O servlet retorna:
  - 0: voo disponível

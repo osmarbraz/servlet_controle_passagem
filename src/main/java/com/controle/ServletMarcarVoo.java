@@ -18,7 +18,7 @@ public class ServletMarcarVoo extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
-     * Mostra a reposta do servidor.
+     * Mostra a reposta.
      *
      * @param respostaServidor
      * @return String de resposta
@@ -64,7 +64,7 @@ public class ServletMarcarVoo extends HttpServlet {
         //Mostra o resultado
         out.println("<h2> Resultado: " + resultado + "</h1>");
 
-        out.print("<a href=\"" + request.getContextPath() + "/index.html\"> Menu </a><p>");
+        out.print("<a href=\"" + request.getContextPath() + "/index.html\">Menu</a><p>");
         out.println("</body></html>");
         out.close();
     }
